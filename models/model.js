@@ -5,7 +5,7 @@ mongoose.connect('mongodb+srv://yogi27601:Rahul@27601@cluster1.xzy4bgd.mongodb.n
 
 })
   .then(() => {
-  console.log('Connected to MongoDB');
+  console.log('Connected to MongoDB'); 
 }).catch(err => {
   console.error('MongoDB connection error:', err);
 });
