@@ -1,10 +1,7 @@
 
 const mongoose = require('mongoose');
 
-mongoose.connect('mongodb+srv://yogi27601:Rahul@27601@cluster1.xzy4bgd.mongodb.net/videodb retryWrites=true&w=majority&appName=Cluster1', {
-  useNewUrlParser: true,
-  useUnifiedTopology: true
-})
+mongoose.connect('mongodb+srv://yogi27601:Rahul@27601@cluster1.xzy4bgd.mongodb.net/videodb', {})
   .then(() => {
     console.log('Connected to MongoDB');
   })
