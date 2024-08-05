@@ -1,14 +1,17 @@
 
 const mongoose = require('mongoose');
-mongoose.connect('mongodb+srv://yogi27601:Rahul@27601@cluster1.xzy4bgd.mongodb.net/videodb
-', {
 
+mongoose.connect('mongodb+srv://yogi27601:Rahul@27601@cluster1.xzy4bgd.mongodb.net/videodb', {
+  useNewUrlParser: true,
+  useUnifiedTopology: true
 })
   .then(() => {
-  console.log('Connected to MongoDB'); 
-}).catch(err => {
-  console.error('MongoDB connection error:', err);
-});
+    console.log('Connected to MongoDB');
+  })
+  .catch(err => {
+    console.error('MongoDB connection error:', err);
+  });
+
 
 // Define a Video Schema
 const videoSchema = new mongoose.Schema({
