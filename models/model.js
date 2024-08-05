@@ -1,7 +1,7 @@
 
 const mongoose = require('mongoose');
 
-mongoose.connect('mongodb+srv://yogi27601:Rahul%4027601@cluster0.ztpvtfm.mongodb.net/videodb')
+mongoose.connect('mongodb+srv://yogi27601:Rahul%4027601@cluster0.ztpvtfm.mongodb.net/videoDB')
   .then(() => {
     console.log('Connected to MongoDB');
   })
