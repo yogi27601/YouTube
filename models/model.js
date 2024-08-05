@@ -1,6 +1,6 @@
 
 const mongoose = require('mongoose');
-mongoose.connect('mongodb://localhost:27017/videoDB', {
+mongoose.connect('mongodb+srv://yogi27601:Rahul%4027601@cluster0.ztpvtfm.mongodb.net/videoDB', {
 
 }).then(() => {
   console.log('Connected to MongoDB');
